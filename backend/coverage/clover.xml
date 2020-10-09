@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1602190850981" clover="3.2.0">
-  <project timestamp="1602190850981" name="All files">
+<coverage generated="1602214873270" clover="3.2.0">
+  <project timestamp="1602214873270" name="All files">
     <metrics statements="54" coveredstatements="34" conditionals="4" coveredconditionals="2" methods="8" coveredmethods="3" elements="66" coveredelements="39" complexity="0" loc="54" ncloc="54" packages="1" files="4" classes="4"/>
     <file name="database.js" path="/usr/src/app/src/database.js">
       <metrics statements="9" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
