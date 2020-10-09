@@ -1,0 +1,28 @@
+version: "3"
+services:
+    server:
+        container_name: reignserver
+        restart: always
+        build: ./backend
+        ports: 
+            - "3000:3000"
+        links: 
+            - mongo
+        volumes: 
+            - ./backend:/usr/src/app
+    frontend:
+        container_name: frontend
+        restart: always
+        build: ./frontend
+        ports: 
+            - "80:3000"
+        links: 
+            - server
+        volumes: 
+            - ./frontend:/usr/src/app
+        tty: true
+    mongo:
+        container_name: reigndb
+        image: mongo
+        ports: 
+            - "27017:27017"
