@@ -1,6 +1,6 @@
 ## REIGN Full Stack Test
 
-### Inint project
+### Start project
   
   ```
   docker-compose build
@@ -12,7 +12,7 @@
   ```
   docker-machine ip
   ```
-  The project should be runing at https://[returned ip]
+  The project should be runing at http://[returned ip]
   
   Remember to wait all components successfully started
   
