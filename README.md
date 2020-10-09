@@ -1,6 +1,6 @@
 ## REIGN Full Stack Test
 
-### Inint project
+### Start project
   
   ```
   docker-compose build
