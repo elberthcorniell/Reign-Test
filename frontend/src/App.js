@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import CONFIG from './config.json'
 import { Grid, Container } from '@material-ui/core';
 import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
 let App = () => {
   let [news, setNews] = useState([{ id: 1 }])
   let [deleted, setDeleted] = useState([])
   let fetchNews = async () => {
-    let res = await fetch(`${CONFIG.API_URL}/api/news`)
+    let res = await fetch(`/api/news`)
     let { news } = await res.json()
     setNews(news)
   }
