@@ -14,6 +14,8 @@
   ```
   The project should be runing at https://[returned ip]
   
+  Remember to wait all components successfully started
+  
 ### Backend Test
   
   ```
